@@ -1,23 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-* {
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
-}
-
-body {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+body * {
+    border: 1px;
+    padding: 5px;
+  }
+  
+  body {
     background-image: url("image3.jpg");
     background-attachment: fixed;
     background-size: 100%;
     background-position: center;
-}
+  }
+  
+  #BinaWisata {
+    font-size: 200%;
+    font-weight: bolder;
+  }
+  
+  #header {
+    display: flex;
+    background-color: wheat;
+  }
+  
+  #HeaderButtons {
+    display: flex;
+    margin-left: auto;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid gray;
+  }
+  
+  a:hover {
+    background-color: cyan;
+  }
+  
+  a {
+    background: pink;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid gray;
+  }
+  
+  #main {
+    height: 1000px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #mainimg {
+    width: 40%;
+    height: 40%;
+  }
+  
+#BinaWisata {
+    font-size: 200%;
+    font-weight: bolder;
+  }
+  
+  #header {
+    display: flex;
+    background-color: wheat;
+  }
 
-main {
-    background-color: white;
+a:hover {
+    background-color: cyan;
+  }
+  
+  a {
+    background: pink;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid gray;
+  }
+  
+  #main {
+    height: 1000px;
 }
 #BinaWisata {
     font-size: 250%;
@@ -33,7 +90,6 @@ main {
 #HeaderButtons {
     display: flex;
     margin-left: auto;
-    background-color: yellow;
 }
 
 .menu {
@@ -57,10 +113,6 @@ nav ul li a {
     text-align: center;
     padding: 0px 16px 0px 16px;
     text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
 }
 
 footer {
