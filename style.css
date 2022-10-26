@@ -1,40 +1,53 @@
 body * {
-    border: 1px solid red;
-    padding: 5px;
+  border: 1px;
+  padding: 5px;
 }
 
 body {
-    background-image: url("image1.jpg");
-    background-attachment: fixed;
-    background-size: 100%;
-    background-position: center;
+  background-image: url("image1.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
 }
 
 #BinaWisata {
-    font-size: 250%;
-    font-weight: bolder;
+  font-size: 200%;
+  font-weight: bolder;
 }
 
 #header {
-    display: flex;
-    background-color: wheat;
+  display: flex;
+  background-color: wheat;
 }
 
 #HeaderButtons {
-    display: flex;
-    margin-left: auto;
-    background-color: yellow;
+  display: flex;
+  margin-left: auto;
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid gray;
+}
+
+a:hover {
+  background-color: cyan;
+}
+
+a {
+  background: pink;
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid gray;
 }
 
 #main {
-    height: 1000px;
+  height: 1000px;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 #mainimg {
-    width: 40%;
-    height: 40%;
+  width: 40%;
+  height: 40%;
 }
