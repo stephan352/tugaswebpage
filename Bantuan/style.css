@@ -1,68 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-* {
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
+body * {
+  border: 1px;
+  padding: 5px;
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    background-image: url("image3.jpg");
-    background-attachment: fixed;
-    background-size: 100%;
-    background-position: center;
+  background-image: url("image3.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
 }
 
-main {
-    background-color: white;
-}
 #BinaWisata {
-    font-size: 250%;
-    font-weight: bolder;
-    font-family: 'Roboto', sans-serif;
+  font-size: 200%;
+  font-weight: bolder;
 }
 
 #header {
-    display: flex;
-    background-color: wheat;
+  display: flex;
+  background-color: wheat;
 }
 
 #HeaderButtons {
-    display: flex;
-    margin-left: auto;
-    background-color: yellow;
+  display: flex;
+  margin-left: auto;
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid gray;
+}
+
+a:hover {
+  background-color: cyan;
+}
+
+a {
+  background: pink;
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid gray;
+}
+
+#main {
+  height: 1000px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#mainimg {
+  width: 40%;
+  height: 40%;
+}
+
+#BinaWisata {
+  font-size: 200%;
+  font-weight: bolder;
+}
+
+#header {
+  display: flex;
+  background-color: wheat;
+}
+
+a:hover {
+  background-color: cyan;
+}
+
+a {
+  background: pink;
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid gray;
+}
+
+#main {
+  height: 1000px;
+}
+#BinaWisata {
+  font-size: 250%;
+  font-weight: bolder;
+  font-family: 'Roboto', sans-serif;
+}
+
+#header {
+  display: flex;
+  background-color: wheat;
+}
+
+#HeaderButtons {
+  display: flex;
+  margin-left: auto;
 }
 
 .menu {
-    float: right;
+  float: right;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 nav ul li {
-    float: left;
+  float: left;
 }
 
 nav ul li a {
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    padding: 0px 16px 0px 16px;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
 }
 
 footer {
-    font-weight: bold;
+  font-weight: bold;
 }
