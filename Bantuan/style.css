@@ -1,21 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body * {
-  border: 1px;
-  padding: 5px;
-}
-
-body {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    border: 1px;
+    padding: 5px;
+  }
+  
+  body {
     background-image: url("image3.jpg");
     background-attachment: fixed;
     background-size: 100%;
     background-position: center;
-}
+  }
   
-#BinaWisata {
+  #BinaWisata {
     font-size: 200%;
     font-weight: bolder;
   }
