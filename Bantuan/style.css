@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-image: url("image3.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: center;
+}
+
+main {
+    background-color: white;
+}
+#BinaWisata {
+    font-size: 250%;
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    display: flex;
+    background-color: wheat;
+}
+
+#HeaderButtons {
+    display: flex;
+    margin-left: auto;
+    background-color: yellow;
+}
+
+.menu {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    font-weight: bold;
+}
