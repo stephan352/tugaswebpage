@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-* {
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
+body * {
+  border: 1px;
+  padding: 5px;
 }
 
 body {
@@ -15,9 +14,72 @@ body {
     background-size: 100%;
     background-position: center;
 }
+  
+#BinaWisata {
+    font-size: 200%;
+    font-weight: bolder;
+  }
+  
+  #header {
+    display: flex;
+    background-color: wheat;
+  }
+  
+  #HeaderButtons {
+    display: flex;
+    margin-left: auto;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid gray;
+  }
+  
+  a:hover {
+    background-color: cyan;
+  }
+  
+  a {
+    background: pink;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid gray;
+  }
+  
+  #main {
+    height: 1000px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #mainimg {
+    width: 40%;
+    height: 40%;
+  }
+  
+#BinaWisata {
+    font-size: 200%;
+    font-weight: bolder;
+  }
+  
+  #header {
+    display: flex;
+    background-color: wheat;
+  }
 
-main {
-    background-color: white;
+a:hover {
+    background-color: cyan;
+  }
+  
+  a {
+    background: pink;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid gray;
+  }
+  
+  #main {
+    height: 1000px;
 }
 #BinaWisata {
     font-size: 250%;
@@ -33,7 +95,6 @@ main {
 #HeaderButtons {
     display: flex;
     margin-left: auto;
-    background-color: yellow;
 }
 
 .menu {
