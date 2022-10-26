@@ -51,3 +51,14 @@ h1 {
   width: 40%;
   height: 40%;
 }
+
+.icons .fa {
+    color: black;
+    margin: 20px;
+    cursor: pointer;
+    padding: 24px;;
+}
+ a {
+    background: none;
+    border: none;
+ }
