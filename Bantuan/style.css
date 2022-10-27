@@ -11,8 +11,9 @@ body {
 }
 
 #BinaWisata {
-  font-size: 200%;
+  font-size: 250%;
   font-weight: bolder;
+  font-family: "Roboto", sans-serif;
 }
 
 #header {
@@ -31,6 +32,7 @@ body {
 a:hover {
   background-color: aqua;
 }
+
 a {
   height: fit-content;
   width: fit-content;
@@ -53,16 +55,6 @@ h1 {
   height: 40%;
 }
 
-#BinaWisata {
-  font-size: 200%;
-  font-weight: bolder;
-}
-
-#header {
-  display: flex;
-  background-color: wheat;
-}
-
 a:hover {
   background-color: cyan;
 }
@@ -72,25 +64,6 @@ a {
   height: fit-content;
   width: fit-content;
   border: 1px solid gray;
-}
-
-#main {
-  height: 1000px;
-}
-#BinaWisata {
-  font-size: 250%;
-  font-weight: bolder;
-  font-family: "Roboto", sans-serif;
-}
-
-#header {
-  display: flex;
-  background-color: wheat;
-}
-
-#HeaderButtons {
-  display: flex;
-  margin-left: auto;
 }
 
 footer {
