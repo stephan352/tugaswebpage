@@ -140,3 +140,7 @@ h3 {
 b :hover {
   background-color: aqua;
 }
+
+p {
+  -webkit-text-fill-color: aquamarine;
+}
