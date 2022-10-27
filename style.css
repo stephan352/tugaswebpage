@@ -58,3 +58,85 @@ h1 {
   width: 40%;
   height: 40%;
 }
+
+#kotakicon {
+  display: flex;
+  background-color: aqua;
+  height: fit-content;
+  width: fit-content;
+  margin: 2mm;
+  border: 1px solid black;
+  border-radius: 10px;
+  position: relative;
+}
+#kotakicon1 {
+  display: flex;
+  background-color: aqua;
+  height: fit-content;
+  width: fit-content;
+  margin: 2mm;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#kotakicon2 {
+  display: flex;
+  background-color: aqua;
+  height: fit-content;
+  width: fit-content;
+  margin: 2mm;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#kotakicon3 {
+  display: flex;
+  background-color: aqua;
+  height: fit-content;
+  width: fit-content;
+  margin: 2mm;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#kotakicon4 {
+  display: flex;
+  background-color: aqua;
+  height: fit-content;
+  width: fit-content;
+  margin: 2mm;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#kotakicon4 {
+  display: flex;
+  background-color: aqua;
+  height: fit-content;
+  width: fit-content;
+  margin: 2mm;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#kotakicon5 {
+  display: flex;
+  background-color: aqua;
+  height: fit-content;
+  width: fit-content;
+  margin: 2mm;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+h3 {
+  text-align: center;
+}
+
+#kotakicon6 {
+  display: flex;
+  background-color: aqua;
+  height: fit-content;
+  width: fit-content;
+  margin: 2mm;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+b :hover {
+  background-color: aqua;
+}
