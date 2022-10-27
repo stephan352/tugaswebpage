@@ -37,6 +37,8 @@ a {
   height: fit-content;
   width: fit-content;
   border: 1px solid gray;
+  text-decoration: none;
+  color: black;
 }
 
 #main {
@@ -48,8 +50,8 @@ h1 {
 }
 
 #mainimg {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #mainimg img {

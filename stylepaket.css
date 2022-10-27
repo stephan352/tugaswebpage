@@ -28,15 +28,13 @@ body {
   border: 1px solid gray;
 }
 
-b:hover {
-  background-color: cyan;
-}
-
-b {
-  background: pink;
+a {
   height: fit-content;
   width: fit-content;
+  background-color: pink;
   border: 1px solid gray;
+  text-decoration: none;
+  color: black;
 }
 
 #main {
@@ -90,4 +88,9 @@ h1 {
 
 h3 {
   text-align: center;
+}
+
+b {
+  height: fit-content;
+  width: fit-content;
 }
