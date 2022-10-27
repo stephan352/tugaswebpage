@@ -93,29 +93,6 @@ a {
   margin-left: auto;
 }
 
-.menu {
-  float: right;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-nav ul li {
-  float: left;
-}
-
-nav ul li a {
-  color: black;
-  font-weight: bold;
-  text-align: center;
-  padding: 0px 16px 0px 16px;
-  text-decoration: none;
-}
-
 footer {
   font-weight: bold;
 }
