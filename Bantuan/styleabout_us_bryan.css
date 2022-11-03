@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+body * {
+  border: 1px;
+  padding: 5px;
+  font-weight: bold;
+  font-size:large;
+}
+
+body {
+  background-color: rgb(93, 76, 200);
+  background-attachment: fixed;
+  background-size: 100%;
+  background-position: center;
+}
+  
+#BinaWisata {
+    font-size: 250%;
+    font-weight: bolder;
+    font-family: "Roboto", sans-serif;
+  }
+  
+#header {
+    display: flex;
+    background-color: rgb(142, 194, 239);
+  }
+  
+  #HeaderButtons {
+    display: flex;
+    margin-left: auto;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid gray;
+  }
+  
+  a:hover {
+    background-color: aqua;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  a {
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    border: 1px solid gray;
+    text-decoration: none;
+    color: black;
+  }
+  
+  #main {
+    height: 1000px;
+    font-weight: bold;
+  }
+
+  #main2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    width: 50%;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #mainimg {
+    width: 40%;
+    height: 40%;
+  }
+  
+  a:hover {
+    background-color: red;
+  }
+  
+  a {
+    background: white;
+    height: fit-content;
+    width: fit-content;
+    border: 1px solid gray;
+  }
+  
+  footer {
+    font-weight: bold;
+  }
